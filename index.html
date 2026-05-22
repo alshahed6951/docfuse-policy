@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — DocFuse</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #F0F4FF;
+      color: #1a1a2e;
+      line-height: 1.7;
+    }
+    .header {
+      background: #1A237E;
+      padding: 36px 24px 28px;
+      text-align: center;
+    }
+    .header-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 16px;
+      background: white;
+      margin: 0 auto 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .header h1 {
+      color: white;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .header p {
+      color: rgba(255,255,255,0.65);
+      font-size: 13px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 16px 60px;
+    }
+    .update-badge {
+      display: inline-block;
+      background: #E8EEFF;
+      color: #1A237E;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 22px 20px;
+      margin-bottom: 14px;
+      border: 0.5px solid rgba(26,35,126,0.08);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .card-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .card h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1A237E;
+    }
+    .card p {
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 10px;
+    }
+    .check-list, .dot-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .check-list li, .dot-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      color: #444;
+    }
+    .check-list li::before {
+      content: '';
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 2px;
+      background: #E8F5E9 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232E7D32'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E") center/12px no-repeat;
+    }
+    .dot-list li::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #1A237E;
+      flex-shrink: 0;
+      margin-top: 8px;
+    }
+    .highlight {
+      background: #E8EEFF;
+      border-left: 3px solid #1A237E;
+      border-radius: 0 10px 10px 0;
+      padding: 12px 16px;
+      font-size: 14px;
+      color: #1A237E;
+      margin: 12px 0;
+      font-weight: 500;
+    }
+    .warning {
+      background: #FFF8E1;
+      border-left: 3px solid #F9A825;
+      border-radius: 0 10px 10px 0;
+      padding: 12px 16px;
+      font-size: 14px;
+      color: #5D4037;
+      margin: 12px 0;
+    }
+    .contact-card {
+      background: #1A237E;
+      border-radius: 16px;
+      padding: 22px 20px;
+      margin-bottom: 14px;
+      text-align: center;
+    }
+    .contact-card h2 { color: white; font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+    .contact-card p { color: rgba(255,255,255,0.7); font-size: 13px; margin-bottom: 14px; }
+    .contact-card a {
+      display: inline-block;
+      background: white;
+      color: #1A237E;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 24px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+    .footer { text-align: center; font-size: 12px; color: #888; margin-top: 10px; }
+    .footer span { color: #1A237E; font-weight: 600; }
+    .divider { height: 0.5px; background: rgba(26,35,126,0.08); margin: 14px 0; }
+    a { color: #1A237E; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-icon">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="#1A237E">
+      <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 7V3.5L18.5 9H13z"/>
+    </svg>
+  </div>
+  <h1>Privacy Policy</h1>
+  <p>DocFuse — PDF Tools &amp; Scanner</p>
+</div>
+
+<div class="container">
+  <div class="update-badge">Last updated: May 2026</div>
+
+  <div class="card">
+    <p>
+      Welcome to <strong>DocFuse</strong>, developed by <strong>FusionLabs</strong> (Abdullah Al Shahed). 
+      This Privacy Policy explains how we handle your information when you use our app. 
+      We are committed to protecting your privacy.
+    </p>
+    <div class="highlight">
+      DocFuse works completely offline. Your PDF files and scanned documents are never uploaded to any server and never leave your device.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:#E8EEFF">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#1A237E">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+        </svg>
+      </div>
+      <h2>Information We Collect</h2>
+    </div>
+
+    <p><strong>We do NOT collect:</strong></p>
+    <ul class="check-list" style="margin-bottom:14px">
+      <li>Your name, email, or any personal details</li>
+      <li>Your PDF files, images, or document content</li>
+      <li>Your real-time location data</li>
+      <li>Your contacts or device storage logs</li>
+    </ul>
+
+    <div class="divider"></div>
+
+    <p style="margin-top:14px"><strong>What is collected by Third-Party Services:</strong></p>
+    <div class="warning">
+      DocFuse displays ads powered by <strong>Google AdMob</strong> and utilizes <strong>Google Play Services / ML Kit</strong> for document scanning. These services may collect certain device data to function properly.
+    </div>
+    <ul class="dot-list">
+      <li>Advertising ID (can be reset in your device settings)</li>
+      <li>Approximate location (country/region level only)</li>
+      <li>Device type, model, and OS version</li>
+      <li>Ad interaction data (clicks, impressions) and basic diagnostics</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:#E8F5E9">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#2E7D32">
+          <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+        </svg>
+      </div>
+      <h2>How Your Files Are Handled</h2>
+    </div>
+    <ul class="check-list">
+      <li>All PDF processing and conversion happens locally on your device.</li>
+      <li>Files are never uploaded to any server or shared with third parties.</li>
+      <li>We have no access to your documents, images, or text at any time.</li>
+      <li>Processed files are saved directly to your device storage.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:#FFF3E0">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E65100">
+          <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+        </svg>
+      </div>
+      <h2>App Permissions</h2>
+    </div>
+    <ul class="dot-list">
+      <li>
+        <div>
+          <strong>Storage / Files:</strong> Required to read PDF files you select and save processed files to your device.
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Camera:</strong> Required to scan documents and convert captured images into PDF or text.
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Internet:</strong> Required only to load ads via Google AdMob. It is never used for document processing.
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:#FCE4EC">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#AD1457">
+          <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+        </svg>
+      </div>
+      <h2>Third-Party Services</h2>
+    </div>
+    <p>DocFuse uses Google AdMob for displaying ads and Google Play Services for ML Kit processing.</p>
+    <p>You can learn more about how Google handles data here:</p>
+    <p><a href="https://policies.google.com/privacy" target="_blank">→ Google Privacy Policy</a></p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:#E8EEFF">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#1A237E">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+        </svg>
+      </div>
+      <h2>Children's Privacy</h2>
+    </div>
+    <p>
+      DocFuse is not directed at children under the age of 13. We do not knowingly collect any personal information from children.
+    </p>
+  </div>
+
+  <div class="contact-card">
+    <h2>Contact Us</h2>
+    <p>Have questions about this Privacy Policy? We're here to help.</p>
+    
+    <a href="mailto:shahed.programmer@gmail.com" style="display: block; margin-bottom: 10px;">shahed.programmer@gmail.com</a>
+    
+    <a href="https://www.facebook.com/profile.php?id=61590263043401" target="_blank" style="display: inline-block; background: #3b5998; color: white; padding: 6px 16px; border-radius: 12px; text-decoration: none; font-size: 13px;">
+      Follow us on Facebook
+    </a>
+  </div>
+
+  <div class="footer">
+    © 2026 <span>FusionLabs</span> by Abdullah Al Shahed. All rights reserved.<br>
+    <span style="color:#888;font-weight:400">DocFuse — PDF Tools &amp; Scanner</span>
+  </div>
+</div>
+</body>
+</html>
